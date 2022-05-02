@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StudentData>
+    <student1>
+        <name>Warad Hussain</name>
+        <city>Karachi</city>
+        <email>contactwithwarad@gmail.com</email>
+    </student1>
+    <student2>
+        <name>Warad Hussain</name>
+        <city>Karachi</city>
+        <email>contactwithwarad@gmail.com</email>
+    </student2>
+    <student3>
+        <name>Warad Hussain</name>
+        <city>Karachi</city>
+        <email>contactwithwarad@gmail.com</email>
+    </student3>
+</StudentData>

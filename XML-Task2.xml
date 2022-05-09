@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE StudentData [
+    <!ELEMENT StudentData (name, city+, (email|mail))>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT mail (#PCDATA)>
+]>
+
+
+
+
+<StudentData>
+
+    <name>Warad Hussain</name>
+    <city>Karachi</city>
+    <city>Karachi</city>
+    <mail>contactwithwarad@gmail.com</mail>
+
+</StudentData>

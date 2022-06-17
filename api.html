@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <style>
+        #div-map{
+            width: 1400px;
+            height: 700px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-map"></div>
+    <script>
+const div_map = document.getElementById('div-map')
+
+let latLng = new google.maps.LatLng(24.8632718,67.0084798)
+
+let map = new google.maps.Map(div_map, {
+    center : latLng,
+    zoom : 16,
+    mapTypeId : 'hybrid'
+})
+
+let marker = new google.maps.Maker({
+    position: latLng,
+    map: map,
+    title: "Aptech SFC",
+    label: "A",
+    draggable: true
+})
+
+    </script>
+</body>

@@ -176,6 +176,7 @@ class WaradHussain:
 ## ✍️ Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Project vs Product Mindset](https://warad.hashnode.dev/project-vs-product-mindset) — `2026-03-11`
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">

@@ -22,8 +22,8 @@ jobs:
         with:
           github_user_name: WaradHussain
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=A78BFA&color_dots=#0D1117,#1a0533,#3b1f6e,#6d3bbf,#A78BFA
-            dist/github-contribution-grid-snake-dark.svg?color_snake=A78BFA&color_dots=#0D1117,#1a0533,#3b1f6e,#6d3bbf,#A78BFA
+            dist/github-contribution-grid-snake.svg?color_snake=ffffff&color_dots=#f0e6ff,#d4a8ff,#A78BFA,#7c3aed,#4c1d95
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_dots=#0D1117,#2d1b4e,#4c1d95,#7c3aed,#A78BFA
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

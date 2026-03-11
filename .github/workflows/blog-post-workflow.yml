@@ -1,0 +1,22 @@
+name: 📝 Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch Blog Posts and Update README
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://waradhussain.com/rss"
+          max_post_count: 5
+          readme_path: "./README.md"
+          comment_tag_name: "BLOG-POST-LIST"
+          commit_message: "docs: update latest blog posts"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}

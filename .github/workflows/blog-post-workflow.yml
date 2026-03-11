@@ -8,15 +8,83 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Fetch Blog Posts and Update README
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://warad.hashnode.dev/rss.xml"
-          max_post_count: 5
-          readme_path: "./README.md"
-          comment_tag_name: "BLOG-POST-LIST"
-          commit_message: "docs: update latest blog posts"
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Posts from Hashnode GraphQL API & Update README
+        run: |
+          python3 - <<'EOF'
+          import urllib.request
+          import json
+          import re
+
+          # Hashnode public GraphQL API — no API key needed
+          query = """
+          {
+            publication(host: "warad.hashnode.dev") {
+              posts(first: 5) {
+                edges {
+                  node {
+                    title
+                    url
+                    publishedAt
+                    brief
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({"query": query}).encode("utf-8")
+          req = urllib.request.Request(
+              "https://gql.hashnode.com",
+              data=payload,
+              headers={"Content-Type": "application/json"}
+          )
+
+          with urllib.request.urlopen(req) as resp:
+              data = json.loads(resp.read())
+
+          posts = data["data"]["publication"]["posts"]["edges"]
+
+          # Build markdown lines
+          lines = []
+          for edge in posts:
+              node  = edge["node"]
+              title = node["title"]
+              url   = node["url"]
+              date  = node["publishedAt"][:10]
+              lines.append(f"- [{title}]({url}) — `{date}`")
+
+          block = "\n".join(lines)
+
+          # Inject between placeholder comments in README
+          with open("README.md", "r") as f:
+              readme = f.read()
+
+          new_readme = re.sub(
+              r"<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->",
+              f"<!-- BLOG-POST-LIST:START -->\n{block}\n<!-- BLOG-POST-LIST:END -->",
+              readme,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_readme)
+
+          print("README updated successfully.")
+          EOF
+
+      - name: Commit Updated README
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "docs: update latest blog posts"
+          git push

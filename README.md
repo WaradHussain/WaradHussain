@@ -6,7 +6,7 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <!-- ─── HEADER WAVE ─────────────────────────────────────────── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:aaaaaa,100:000000&height=220&section=header&text=WARAD%20HUSSAIN&fontSize=62&fontColor=000000&fontAlignY=38&fontFamily=Orbitron&desc=Python%20Backend%20Engineer%20%7C%20Autonomous%20AI%20Agents%20%7C%%20Agentic%20Workflow&descAlignY=60&descSize=15&descColor=111111&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:aaaaaa,100:000000&height=220&section=header&text=WARAD%20HUSSAIN&fontSize=62&fontColor=000000&fontAlignY=38&fontFamily=Orbitron&desc=Python%20Backend%20Developer%20%7C%20Autonomous%20AI%20Agents%20Architect%20%7C%20LLM%20Workflow%20Engineer&descAlignY=60&descSize=15&descColor=111111&animation=fadeIn" width="100%"/>
 
 <!-- ─── TYPING ANIMATION ────────────────────────────────────── -->
 <div align="center">
@@ -175,7 +175,7 @@ class WaradHussain:
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/WaradHussain/WaradHussain/main/github-metrics.svg" alt="GitHub Metrics Infographic" width="100%"/>
+<img src="https://raw.githubusercontent.com/WaradHussain/WaradHussain/metrics-output/github-metrics.svg" alt="GitHub Metrics Infographic" width="100%"/>
 
 <br/>
 

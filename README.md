@@ -1,258 +1,300 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    TOP WAVE BANNER                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,27&height=200&section=header&text=Warad%20Hussain&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Python%20Backend%20%7C%20AI%20Automation%20%7C%20No-Code%20Builder&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<!-- ============================================================= -->
+<!--                     HEADER BANNER                            -->
+<!-- ============================================================= -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=220&section=header&text=WARAD%20HUSSAIN&fontSize=62&fontColor=ffffff&fontAlignY=38&fontFamily=Orbitron&desc=Python%20Backend%20Developer%20%7C%20Autonomous%20AI%20Agents%20Architect%20%7C%20LLM%20Workflow%20Engineer&descAlignY=60&descSize=15&descColor=cccccc&animation=fadeIn" width="100%"/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
 <!--                    TYPING ANIMATION                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+REST+APIs+with+FastAPI+%F0%9F%90%8D;Automating+Workflows+with+n8n+%26+make.com+%F0%9F%A4%96;Engineering+AI+Agents+%26+Prompts+%F0%9F%A7%A0;Open+to+Remote+Opportunities+%F0%9F%8C%8D;Based+in+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&height=50&lines=Building+REST+APIs+with+FastAPI;Designing+Autonomous+AI+Agents;Orchestrating+LLM+Workflows+with+n8n;Engineering+make.com+Automations;Crafting+Intelligent+Prompt+Systems;Open+to+Remote+Opportunities;Based+in+Karachi%2C+Pakistan" alt="Typing SVG" />
+</div>
+
+<!-- ============================================================= -->
+<!--              ANIMATED DIVIDER                                -->
+<!-- ============================================================= -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:333333,100:000000&height=3&section=header" width="100%"/>
+
+<br/>
+
+<!-- ============================================================= -->
+<!--                    SOCIAL BADGES (no links, plain images)    -->
+<!-- ============================================================= -->
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Portfolio-waradhussain.com-ffffff?style=for-the-badge&logo=safari&logoColor=000000&labelColor=ffffff&color=000000" alt="Portfolio"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/LinkedIn-waradhussain-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=ffffff&color=000000" alt="LinkedIn"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Twitter-@warad__hussain-ffffff?style=for-the-badge&logo=twitter&logoColor=000000&labelColor=ffffff&color=000000" alt="Twitter"/>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=WaradHussain&label=PROFILE+VIEWS&color=000000&style=for-the-badge&labelColor=ffffff" alt="Profile Views"/>
+
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    SOCIAL BADGES                             -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<div align="center">
-
-  <a href="https://waradhussain.com" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-waradhussain.com-A78BFA?style=for-the-badge&logoColor=white" alt="Portfolio"/>
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/waradhussain" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-waradhussain-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/warad_hussain" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-@warad__hussain-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=WaradHussain&label=Profile+Views&color=A78BFA&style=for-the-badge" alt="Profile Views"/>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     ABOUT ME CARD                            -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
+<!--                     ABOUT ME CODE BLOCK                      -->
+<!-- ============================================================= -->
 <div align="center">
 
 ```python
 class WaradHussain:
     name       = "Warad Hussain"
-    location   = "Karachi, Pakistan 🇵🇰"
+    location   = "Karachi, Pakistan"
     website    = "waradhussain.com"
-    role       = "Python Backend Developer & AI Automation Builder"
+    role       = "Python Backend Developer  |  Autonomous AI Agents Architect"
 
-    currently_building  = ["FastAPI REST APIs", "AI Agents", "Workflow Automations"]
-    currently_learning  = ["n8n", "make.com", "Prompt Engineering", "LLM Tool Ecosystem"]
-    interests           = ["No-Code Agents", "Backend Architecture", "Open Source"]
+    building   = ["FastAPI REST APIs", "Autonomous AI Agents", "LLM Pipelines"]
+    learning   = ["n8n", "make.com", "Prompt Engineering", "LLM Tool Ecosystem"]
+    interests  = ["Agent Orchestration", "Workflow Automation", "Backend Systems"]
 
-    open_to             = "Remote Backend / Automation Roles"
-    availability        = "Immediate — EU mornings or US afternoons"
+    open_to    = "Remote Python Backend / AI Automation Roles"
+    available  = "Immediately — EU mornings or US afternoons"
 
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something great 🚀")
+    def contact(self):
+        return "waradhussain.com  |  linkedin.com/in/waradhussain"
 ```
 
 </div>
 
 <br/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
 <!--                     TECH STACK                               -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🛠️ Tech Stack
-
+<!-- ============================================================= -->
 <div align="center">
+<br/>
 
-**🐍 Backend & APIs**
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=TECH+STACK" alt="Tech Stack Header"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-FF6B35?style=for-the-badge&logo=fastapi&logoColor=white)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-4051B5?style=for-the-badge&logo=gunicorn&logoColor=white)
+<br/><br/>
 
-**🗄️ Database & ORM**
+**BACKEND  &  APIS**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-013243?style=for-the-badge&logo=alembic&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-**🔐 Auth & Security**
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
-![bcrypt](https://img.shields.io/badge/bcrypt-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white)
-
-**🤖 AI & Automation**
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Make.com](https://img.shields.io/badge/Make.com-6D00CC?style=for-the-badge&logo=make&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Prompt Eng.](https://img.shields.io/badge/Prompt_Engineering-FF6B35?style=for-the-badge&logo=openai&logoColor=white)
-
-**🧪 Testing & Quality**
-
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![httpx](https://img.shields.io/badge/httpx-009688?style=for-the-badge&logo=python&logoColor=white)
-
-**☁️ DevOps & Deployment**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-</div>
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Pydantic-000000?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic"/>
+<img src="https://img.shields.io/badge/REST_APIs-000000?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API"/>
+<img src="https://img.shields.io/badge/Uvicorn-000000?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Uvicorn"/>
 
 <br/>
 
----
+**DATABASE  &  ORM**
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-000000?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+<img src="https://img.shields.io/badge/Alembic-000000?style=for-the-badge&logo=databricks&logoColor=white" alt="Alembic"/>
+<img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+
+<br/>
+
+**AUTH  &  SECURITY**
+
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/OAuth2-000000?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth2"/>
+<img src="https://img.shields.io/badge/bcrypt-000000?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="bcrypt"/>
+
+<br/>
+
+**AI  AGENTS  &  AUTOMATION**
+
+<img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
+<img src="https://img.shields.io/badge/make.com-000000?style=for-the-badge&logo=make&logoColor=white" alt="Make.com"/>
+<img src="https://img.shields.io/badge/OpenAI_API-000000?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<!-- <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/> -->
+<img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Prompt Engineering"/>
+
+<br/>
+
+**TESTING  &  QUALITY**
+
+<img src="https://img.shields.io/badge/pytest-000000?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest"/>
+<img src="https://img.shields.io/badge/httpx-000000?style=for-the-badge&logo=python&logoColor=white" alt="httpx"/>
+
+<br/>
+
+**DEVOPS  &  DEPLOYMENT**
+
+<img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Render"/>
+<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
+<img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+
+<br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
 <!--                    GITHUB STATS                              -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 📊 GitHub Stats
-
+<!-- ============================================================= -->
 <div align="center">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=WaradHussain&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=CDD6F4&ring_color=A78BFA" alt="Warad's GitHub Stats"/>
-  &nbsp;
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WaradHussain&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=CDD6F4" alt="Top Languages"/>
-</div>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=GITHUB+STATS" alt="GitHub Stats Header"/>
+
+<br/><br/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=WaradHussain&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=cccccc&ring_color=ffffff&cache_seconds=86400" alt="GitHub Stats"/>
+&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WaradHussain&layout=compact&langs_count=8&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc&cache_seconds=86400" alt="Top Languages"/>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    STREAK STATS                              -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=WaradHussain&theme=tokyonight&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=FF6B35&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=CDD6F4&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak"/>
-</div>
+<img src="https://streak-stats.demolab.com/?user=WaradHussain&hide_border=true&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=aaaaaa&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WaradHussain&theme=github_dark" alt="Profile Summary" width="100%"/>
 
 <br/>
 
----
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WaradHussain&theme=github_dark" alt="Repos Per Language" height="150em"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WaradHussain&theme=github_dark" alt="Most Commit Language" height="150em"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=WaradHussain&theme=github_dark" alt="Stats" height="150em"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=WaradHussain&theme=github_dark&utcOffset=5" alt="Productive Time PKT" height="150em"/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
 <!--                    TROPHIES                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🏆 GitHub Trophies
-
+<!-- ============================================================= -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=WaradHussain&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
-</div>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=GITHUB+TROPHIES" alt="Trophies Header"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=WaradHussain&theme=onestar&no-frame=true&row=1&column=7&margin-w=8" alt="GitHub Trophies"/>
 
 <br/>
 
----
+</div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
 <!--                 CONTRIBUTION ACTIVITY GRAPH                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 📈 Contribution Activity
-
+<!-- ============================================================= -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WaradHussain&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=A78BFA&point=FF6B35&area=true&area_color=A78BFA" alt="Contribution Graph" width="100%"/>
-</div>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=CONTRIBUTION+ACTIVITY" alt="Activity Header"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=WaradHussain&theme=github-compact&hide_border=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=333333" alt="Contribution Graph" width="100%"/>
 
 <br/>
 
----
+</div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
+<!--                    SNAKE ANIMATION                           -->
+<!-- ============================================================= -->
+<div align="center">
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=CONTRIBUTION+SNAKE" alt="Snake Header"/>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+<br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
 <!--                    BLOG POSTS                                -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## ✍️ Latest Blog Posts
+<!-- ============================================================= -->
+<div align="center">
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=LATEST+WRITING" alt="Blog Header"/>
+
+<br/><br/>
+
+</div>
 
 <!-- BLOG-POST-LIST:START -->
-- [Project vs Product Mindset](https://warad.hashnode.dev/project-vs-product-mindset) — `2026-03-11`
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
-  <a href="https://waradhussain.com">
-    <img src="https://img.shields.io/badge/Read_More_at-waradhussain.com-A78BFA?style=for-the-badge&logo=rss&logoColor=white"/>
-  </a>
+
+<img src="https://img.shields.io/badge/Read_More-warad.hashnode.dev-000000?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode"/>
+
+<br/><br/>
+
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
 
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    SNAKE ANIMATION                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🐍 Watch the Snake Eat My Contributions
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake.svg"/>
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/WaradHussain/WaradHussain/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
-</div>
-
-<br/>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
 <!--                  CURRENTLY LEVELING UP                       -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🚀 Currently Leveling Up
-
+<!-- ============================================================= -->
 <div align="center">
+<br/>
 
-| 🎯 Area | 🔧 What I'm Mastering |
-|:--------|:----------------------|
-| **Python Backend** | FastAPI · SQLAlchemy · Alembic · JWT Auth · pytest |
-| **AI Agents** | n8n workflows · make.com · No-Code Automations |
-| **Prompt Engineering** | OpenAI API · LLM Tool Ecosystem · Agent Design Patterns |
-| **Database** | PostgreSQL · Redis · Query Optimization |
-| **DevOps** | Docker · GitHub Actions · Render Deployments |
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=99999&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=CURRENTLY+LEVELING+UP" alt="Learning Header"/>
 
-</div>
+<br/><br/>
+
+| AREA | WHAT I AM MASTERING |
+|:-----|:--------------------|
+| Python Backend | FastAPI · SQLAlchemy · Alembic · JWT Auth · pytest |
+| Automations & AI Agents | n8n · make.com · Multi-Agent Systems |
+| Prompt Engineering | OpenAI API · LLM Tool Ecosystem · Agent Design Patterns |
+| Database Layer | PostgreSQL · Redis · Query Optimization |
+| DevOps | Docker · GitHub Actions · Render Deployments |
 
 <br/>
 
----
+</div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:222222,100:000000&height=2&section=header" width="100%"/>
+
+<!-- ============================================================= -->
 <!--                   FOOTER                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ============================================================= -->
 <div align="center">
-
-### 💬 Let's Connect
-
-*I'm actively looking for remote backend & automation opportunities.*
-*Open to full-time roles, freelance projects, and collaborations.*
-
 <br/>
 
-  <a href="https://waradhussain.com" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Website-waradhussain.com-A78BFA?style=for-the-badge" alt="Website"/>
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/waradhussain" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/warad_hussain" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=16&pause=1500&color=FFFFFF&center=true&vCenter=true&width=700&height=40&lines=Available+for+Remote+Backend+%26+AI+Automation+Roles;Open+to+Full-Time%2C+Freelance+%26+Collaboration;EU+Mornings+%7C+US+Afternoons+%7C+Immediate+Start" alt="Footer Typing"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/waradhussain.com-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Website"/>
+&nbsp;
+<img src="https://img.shields.io/badge/linkedin.com%2Fin%2Fwaradhussain-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+&nbsp;
+<img src="https://img.shields.io/badge/@warad__hussain-000000?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+
+<br/><br/>
 
 </div>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,27&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:000000&height=140&section=footer&fontFamily=Orbitron&animation=fadeIn" width="100%"/>

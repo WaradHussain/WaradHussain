@@ -14,7 +14,7 @@ jobs:
       - name: Fetch Blog Posts and Update README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://waradhussain.hashnode.dev/rss.xml"
+          feed_list: "https://warad.hashnode.dev/rss.xml"
           max_post_count: 5
           readme_path: "./README.md"
           comment_tag_name: "BLOG-POST-LIST"

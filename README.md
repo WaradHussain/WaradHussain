@@ -230,6 +230,10 @@ class WaradHussain:
 </div>
 
 <!-- BLOG-POST-LIST:START -->
+
+**[Project vs Product Mindset](https://warad.hashnode.dev/project-vs-product-mindset)** &nbsp; `2026-03-11`
+> There is a difference most developers never talk about. Not the kind you find in a textbook or a You...
+
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">

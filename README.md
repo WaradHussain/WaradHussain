@@ -29,7 +29,7 @@
 warad = {
     "role":      ["Python Backend Engineer", "AI Engineer"],
     "focus":     ["LLM APIs", "RAG Pipelines", "REST APIs", "Async Systems"],
-    "stack":     ["FastAPI", "Django", "LangChain", "PostgreSQL", "Docker"],
+    "stack":     ["FastAPI", "LangChain", "PostgreSQL", "Docker"],
     "currently": "Building AI-powered tools & sharing the journey publicly",
     "location":  "Karachi, Pakistan 🇵🇰",
     "site":      "https://waradhussain.com"
@@ -44,7 +44,6 @@ warad = {
 
 ![Python](https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=3b82f6)&nbsp;
 ![FastAPI](https://img.shields.io/badge/FastAPI-0A0A0A?style=for-the-badge&logo=fastapi&logoColor=10b981)&nbsp;
-![Django](https://img.shields.io/badge/Django-0A0A0A?style=for-the-badge&logo=django&logoColor=16a34a)&nbsp;
 ![REST APIs](https://img.shields.io/badge/REST_APIs-0A0A0A?style=for-the-badge&logoColor=00E87A)
 
 **AI / LLM**
@@ -102,9 +101,9 @@ warad = {
 
 ```
 📌  Currently building:  AI-powered backend systems
-📖  Currently learning:  Advanced RAG + LLM agents
+📖  Currently learning:  Python Backend + Agentic AI
 ✍️  Writing about:       Python, AI, backend engineering
-🎯  Goal 2025:           Ship 3 open-source Python tools
+🎯  Goal 2026:           Ship 3 open-source Python tools
 ```
 
 ---
